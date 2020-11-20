@@ -1,0 +1,120 @@
+/*changing margin of body*/
+h2{
+    color: blue;
+}
+h4{
+    color: black;
+}
+body{
+    margin: 0px;
+}
+/*background image*/
+img{
+    opacity: 0.5;
+}
+/*text in top left background image*/
+.text {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: white;
+  }
+  /*div of login form*/
+  .div1{
+      position: absolute;
+      height: 400px;
+      width: 400px;
+      background-color: #f7e6ff;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  /*right side navbar*/
+  .navbar {
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    background-color: mediumorchid;
+    opacity:0.5;
+    filter:alpha(opacity=60);
+    text-align: center;
+  }
+/* style of links in navbar*/
+  .navbar a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color:purple;
+  }
+  
+ .navbar i{
+    height: 25px;
+    width: 30px;
+    background-color: black;
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    color: white;
+    font-size:24px;
+  }
+  .div2{
+    position: absolute;
+    height: 350px;
+    width: 300px;
+    background-color: #eeccff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #eeccff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  input{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border: 2px solid #eeccff;
+    border-radius: 12px;
+    height: 30px;
+    width: 200px;
+  }
+  .btn{
+      background-color: blue;
+      color: white;
+  }
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .e-icon input[type=email]{
+    padding-left: 20px;
+  }
+  .e-icon{
+    position: relative;
+  }
+  .e-icon i{
+    position:absolute;
+   padding-left: 50px;
+   padding-top: 10px;
+  }
+  .p-icon input[type=password]{
+    padding-left: 20px;
+  }
+  .p-icon{
+    position: relative;
+  }
+  .p-icon i{
+    position:absolute;
+   padding-left: 50px;
+   padding-top: 10px;
+  }
+  
